@@ -1,0 +1,351 @@
+
+                     /*navbar*/
+.navbar{
+  background-color: black;
+}
+.navbar a:hover{
+  color: white!important;
+  border: 0.1px solid white;
+}
+
+.dropdown-menu .dropdown-item{
+color: black;
+}
+.dropdown-menu .dropdown-item:hover{
+  color: white;
+  background-color: black;
+}
+                        /*end of navbar*/
+
+                       /*carousel*/
+.d-block{
+  width: 100%;
+height:500px;
+}
+                    /*end of carousel*/
+
+                        /*Login*/
+.modal-login{
+  color:#646464;
+}
+.modal-login.modal-content{
+  padding: 20px;
+  border-radius:5px;
+  border: none;
+
+}
+.modal-login.modal-header{
+  border-bottom: none;
+  position: relative;
+  justify-content: center;
+
+}
+.modal-login h5{
+  font-size: 26.5px;
+  margin: 30px 0 -15px;
+  color: black;
+}
+.modal-login .form-control:focus{
+  border-color:forestgreen;
+
+}
+.modal-login .form-control {
+  border-radius: 3px;
+  min-height: 40px;
+}
+.modal-login .btn{
+  border-radius: 3px;
+  min-height: 40px;
+}
+.modal-login.close{
+  position: absolute;
+  top: -5px;
+  right: -5px;
+
+}
+.modal-login .modal-dialog{
+  margin-top: 80px;
+}
+.modal-login .btn{
+  color: white;
+  border-radius: 4px;
+  background: black;
+  text-decoration: none;
+  transition: all 0.5s;
+  line-height: normal;
+  border: none
+}
+.modal-login .btn:hover{
+  background:gray;
+   outline: none;
+   color: white;
+}
+.modal-login .btn:focus{
+background: gray;
+ outline: none;
+
+}
+.modal-login .form-control{
+  padding-left: 40px;
+}
+.modal-login .form-group{
+  position: relative;
+}
+
+                        /*end of login*/
+
+                            /*about us*/
+.about img{
+  border: 6px solid black;
+}
+                          /*end of about us*/
+
+                        /*contect */
+.map{
+  margin-top: 20px;
+}
+.map iframe{
+frameborder:1px solid black;
+}
+.contect{
+  margin-top: 15px;
+}
+                        /*end of contect */
+
+                       /*index product */
+
+.btn-pro{
+  text-align: center;
+  border-radius: 0px;
+  background-color: #000;
+  color:#fff;
+  width: 120px;
+}
+.btn-pro:hover{
+  transition: 0.5s;
+  border: 1px solid black;
+  background-color: #fff;
+  color:#000;
+  width:120px;
+}
+
+.products{
+   border:2px solid black;
+   background-color:white;
+   border-radius: 0;
+}
+.products h5{
+  margin-top:5px;
+}
+.products img{
+ width: 100%;
+ height:12rem;
+}
+.card{
+  height: 100%;
+}
+
+                                    /*end of index product */
+
+                                    /*repiar */
+.rep{
+  background-color: black;
+}
+
+.rep .txtrep{
+  color: white;
+}
+.txtrep a{
+  border-radius: 0;
+  width: 120px;
+  background-color: white;
+  color: black;
+  margin-bottom: 15px;
+}
+.txtrep a:hover{
+  border: 1px solid white;
+  width: 120px;
+  background-color: black;
+  color: white;
+}
+                                    /*end of repiar */
+
+                                    /*rent*/
+.rent{
+border:2px solid black;
+  }
+.rent .txtrent{
+  color: black;
+}
+.txtrent a{
+  margin-bottom: 15px;
+}
+                                 /*end of rent*/
+
+                               /*footer*/
+
+.footer-top p{
+  color:#999;
+  line-height: 20px;
+}
+.footer-top h3{
+  color:#fff;
+}
+.footer-top h2{
+  color: #fff;
+  font-size: 18px;
+}
+.footer-top{
+background-color: #111;
+padding: 50px 0;
+
+}
+.segment-one h3{
+  font-family: Courgette;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+.segment-two h2{
+  color: #fff;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+.segment-two h2:before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px
+}
+.segment-two ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.segment-two ul li{
+  border-bottom: 1px solid rgba(255,255,255, 0.3);
+  line-height: 40px;
+}
+.segment-two ul li a{
+  color: #999;
+  text-decoration: none;
+  }
+.segment-three h2{
+  color: #fff;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+.segment-three h2:before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px
+}
+.segment-three a{
+background: #494848;
+width: 40px;
+height: 40px;
+display: inline-block;
+border-radius: 50%;
+}
+.segment-three a i{
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+.segment-four h2{
+  color: #fff;
+  font-family:Poppins;
+  text-transform:
+
+}
+.segment-four h2:before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px
+}
+.segment-four ul li a{
+color: #999;
+text-decoration: none;
+}
+
+.segment-four ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.segment-four ul li{
+line-height: 40px;
+color:#999;
+border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
+
+.footer-bottom-text{
+  text-align: center;
+  background: #000;
+  line-height: 60px;
+
+}
+@media only screen and (max-width:768px) and (max-width:991px) {
+  .md-mb-30{
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .sm-mb-30{
+    margin-bottom: 30px;
+  }
+  .footer-top{
+  padding: 15px 0;
+  }
+}
+                         /*end 0f footer*/
+
+                         /*guitar*/
+.carousel-inner img{
+  border-bottom: 5px solid black;
+}
+.photog{
+  background-color: black;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.photog img{
+  padding:3px;
+  height: 100%;
+}
+.Nzee{
+  width:55px;
+  color: white;
+  background-color: black;
+}
+#brand img{
+  width: 15%;
+  height:17px;
+  margin-right:3px;
+  margin-left: 3px;
+}
+
+
+                           /*end 0f guitar*/
+
+                        /*gallery*/
+
+.gallary{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:black;
+  padding:20px;
+}
+.column img{
+  width: 100%;
+  height: auto;
+}
+.column .responsive{
+padding-bottom: 15px;
+}
+.column img:hover{
+  transform: scale(1.1);
+}
+
+
+                              /*end of gallery*/
