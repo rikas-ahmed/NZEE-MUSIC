@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nzee music</title>
+    <link rel="icon" href="Images/l5.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">        <!--navbar-->
+          <a class="navbar-brand" href="#"><img src="images/l5.jpg" width="40%" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="drums.html">Drums</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="guiter.html">Guitars</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="piano.html">Pianos</a>
+              <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="violin.html">Violin</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="trumpet.html">Trumpet</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="har.html">Others</a>
+            </div>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallary.html">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#signup">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>                              <!--end of navbar-->
+
+                                         <!--login-->
+
+  <div class="modal fade" id="login" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-login" role="document">
+     <div class="modal-content">
+    <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+     </button>
+  </div>
+    <div class="modal-body">
+   <form class="was-validated">
+  <div class="form-group">
+   <label>Username:</label>
+   <input type="text" class="form-control" placeholder="Enter username" name="" required>
+   <div class="invalid-feedback">Please fill out this field.</div>
+</div>
+  <div class="form-group">
+   <label>Password:</label>
+   <input type="password" class="form-control"  placeholder="Enter password" name="" required>
+   <div class="invalid-feedback">Please fill out this field.</div>
+</div>
+       <br>
+   <button name="button" class="btn btn-lg btn-block login-btn">Login</button>
+  </form>
+      <br>
+
+      </div>
+      </div>
+    </div>
+   </div>                                   <!--end of login-->
+
+                                                 <!--sign up-->
+
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-login" role="document">
+  <div class="modal-content">
+   <div class="modal-header">
+   <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+   <span aria-hidden="true">&times;</span>
+   </button>
+</div>
+<div class="modal-body">
+  <form class="was-validated">
+<div class="form-group">
+   <label>Email:</label>
+   <input type="email" class="form-control" placeholder="Enter email " name="" required>
+   <div class="invalid-feedback">Please fill out this field.</div>
+</div>
+ <div class="form-group">
+  <label>Password:</label>
+  <input type="password" class="form-control"  placeholder="Enter password" name="" required>
+  <div class="invalid-feedback">Please fill out this field.</div>
+ </div>
+ <div class="form-group">
+   <label>Confirm password:</label>
+   <input type="password" class="form-control"  placeholder="Confirm password" name="" required>
+   <div class="invalid-feedback">Please fill out this field.</div>
+</div>
+<br>
+   <button name="button" class="btn btn-lg btn-block login-btn">Sign up</button>
+</form>
+<br>
+    </div>
+   </div>
+ </div>
+</div>                                       <!--end of signup-->
+
+
+        <div class="carousel-inner">         <!--background img-->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/pb1.png" alt="First slide">
+        </div>
+
+        <div class="carousel-caption  d-md-block">
+          <h2 style="color:black"><b>IMAGE GALLARY</b></h2>
+        </div>
+      </div>                            <!--end of background img-->
+
+      </header>
+
+      <div class="container">
+      <div class="gallary">                 <!--gallary-->
+       <div class="row">
+         <div class="column col-lg-2">
+           <a href="Images/ddd.png" data-lightbox="gallery" data-title="Drum"><img src="Images/ddd.png" class="responsive"></a>
+           <a href="Images/d2.png" data-lightbox="gallery"><img src="Images/d2.png" class="responsive"></a>
+           <a href="Images/d3.png" data-lightbox="gallery"><img src="Images/d3.png" class="responsive"></a>
+           <a href="Images/d5.png" data-lightbox="gallery"><img src="Images/d5.png" class="responsive"></a>
+           <a href="Images/d13.jpg" data-lightbox="gallery"><img src="Images/d13.jpg" class="responsive"></a>
+           <a href="Images/d7.png" data-lightbox="gallery"><img src="Images/d7.png" class="responsive"></a>
+           <a href="Images/p32.png" data-lightbox="gallery"><img src="Images/p32.png" class="responsive"></a>
+           <a href="Images/v11.jpg" data-lightbox="gallery"><img src="Images/v11.jpg" class="responsive"></a>
+           <a href="Images/p44.jpg" data-lightbox="gallery"><img src="Images/p44.jpg" class="responsive"></a>
+           <a href="Images/o41.jpg" data-lightbox="gallery"><img src="Images/o41.jpg" class="responsive"></a>
+
+   </div>
+   <div class="column col-lg-2">
+           <a href="Images/g1.png" data-lightbox="gallery"><img src="Images/g1.png" class="responsive"></a>
+           <a href="Images/g2.png" data-lightbox="gallery"><img src="Images/g2.png" class="responsive"></a>
+           <a href="Images/p42.jpg" data-lightbox="gallery"><img src="Images/p42.jpg" class="responsive"></a>
+           <a href="Images/g4.png" data-lightbox="gallery"><img src="Images/g4.png" class="responsive"></a>
+           <a href="Images/g5.png" data-lightbox="gallery"><img src="Images/g5.png" class="responsive"></a>
+           <a href="Images/v41.jpg" data-lightbox="gallery"><img src="Images/v41.jpg" class="responsive"></a>
+           <a href="Images/d24.jpg" data-lightbox="gallery"><img src="Images/d24.jpg" class="responsive"></a>
+           <a href="Images/p41.jpg" data-lightbox="gallery"><img src="Images/p41.jpg" class="responsive"></a>
+           <a href="Images/t31.jpg" data-lightbox="gallery"><img src="Images/t31.jpg" class="responsive"></a>
+           <a href="Images/t21.jpg" data-lightbox="gallery"><img src="Images/t21.jpg" class="responsive"></a>
+          <a href="Images/p13.jpg" data-lightbox="gallery"><img src="Images/p13.jpg" class="responsive"></a>
+   </div>
+   <div class="column col-lg-2">
+           <a href="Images/p34.png" data-lightbox="gallery"><img src="Images/p34.png" class="responsive"></a>
+           <a href="Images/p43.jpg" data-lightbox="gallery"><img src="Images/p43.jpg" class="responsive"></a>
+           <a href="Images/d31.jpg" data-lightbox="gallery"><img src="Images/d31.jpg" class="responsive"></a>
+           <a href="Images/pg2.jpg" data-lightbox="gallery"><img src="Images/pg2.jpg" class="responsive"></a>
+           <a href="Images/p34.png" data-lightbox="gallery"><img src="Images/p34.png" class="responsive"></a>
+           <a href="Images/o11.jpg" data-lightbox="gallery"><img src="Images/o11.jpg" class="responsive"></a>
+           <a href="Images/p7.png" data-lightbox="gallery"><img src="Images/p7.png" class="responsive"></a>
+           <a href="Images/d41.jpg" data-lightbox="gallery"><img src="Images/d41.jpg" class="responsive"></a>
+           <a href="Images/p24.jpg" data-lightbox="gallery"><img src="Images/p24.jpg" class="responsive"></a>
+           <a href="Images/p0.png" data-lightbox="gallery"><img src="Images/p0.png" class="responsive"></a>
+
+   </div>
+   <div class="column col-lg-2">
+            <a href="Images/v31.jpg" data-lightbox="gallery"><img src="Images/v31.jpg" class="responsive"></a>
+            <a href="Images/pg1.jpg" data-lightbox="gallery"><img src="Images/pg1.jpg" class="responsive"></a>
+            <a href="Images/gg1.jpg" data-lightbox="gallery"><img src="Images/gg1.jpg" class="responsive"></a>
+            <a href="Images/o31.jpg" data-lightbox="gallery"><img src="Images/o31.jpg" class="responsive"></a>
+            <a href="Images/p1.png" data-lightbox="gallery"><img src="Images/p1.png" class="responsive"></a>
+            <a href="Images/d34.jpg" data-lightbox="gallery"><img src="Images/d34.jpg" class="responsive"></a>
+            <a href="Images/v45.jpg" data-lightbox="gallery"><img src="Images/v45.jpg" class="responsive"></a>
+            <a href="Images/p21.jpg" data-lightbox="gallery"><img src="Images/p21.jpg" class="responsive"></a>
+            <a href="Images/v21.jpg" data-lightbox="gallery"><img src="Images/v21.jpg" class="responsive"></a>
+            <a href="Images/g41.jpg" data-lightbox="gallery"><img src="Images/g41.jpg" class="responsive"></a>
+
+
+   </div>
+   <div class="column col-lg-2">
+           <a href="Images/p32.png" data-lightbox="gallery"><img src="Images/p32.png" class="responsive"></a>
+           <a href="Images/g11.jpg" data-lightbox="gallery"><img src="Images/g11.jpg" class="responsive"></a>
+           <a href="Images/d42.jpg" data-lightbox="gallery"><img src="Images/d42.jpg" class="responsive"></a>
+           <a href="Images/v34.jpg" data-lightbox="gallery"><img src="Images/v34.jpg" class="responsive"></a>
+           <a href="Images/g23.jpg" data-lightbox="gallery"><img src="Images/g23.jpg" class="responsive"></a>
+           <a href="Images/p44.jpg" data-lightbox="gallery"><img src="Images/p44.jpg" class="responsive"></a>
+           <a href="Images/p31.png" data-lightbox="gallery"><img src="Images/p31.png" class="responsive"></a>
+           <a href="Images/g14.jpg" data-lightbox="gallery"><img src="Images/g14.jpg" class="responsive"></a>
+           <a href="Images/o33.jpg" data-lightbox="gallery"><img src="Images/o33.jpg" class="responsive"></a>
+           <a href="Images/g32.jpg" data-lightbox="gallery"><img src="Images/g32.jpg" class="responsive"></a>
+           <a href="Images/p32.png" data-lightbox="gallery"><img src="Images/p32.png" class="responsive"></a>
+   </div>
+   <div class="column col-lg-2">
+           <a href="Images/p11.jpg" data-lightbox="gallery"><img src="Images/p11.jpg" class="responsive"></a>
+           <a href="Images/d32.jpg" data-lightbox="gallery"><img src="Images/d32.jpg" class="responsive"></a>
+           <a href="Images/v21.jpg" data-lightbox="gallery"><img src="Images/v21.jpg" class="responsive"></a>
+           <a href="Images/v23.jpg" data-lightbox="gallery"><img src="Images/v23.jpg" class="responsive"></a>
+           <a href="Images/g21.jpg" data-lightbox="gallery"><img src="Images/g21.jpg" class="responsive"></a>
+           <a href="Images/p45.jpg" data-lightbox="gallery"><img src="Images/p45.jpg" class="responsive"></a>
+           <a href="Images/g42.jpg" data-lightbox="gallery"><img src="Images/g42.jpg" class="responsive"></a>
+           <a href="Images/t41.jpg" data-lightbox="gallery"><img src="Images/t41.jpg" class="responsive"></a>
+           <a href="Images/v14.jpg" data-lightbox="gallery"><img src="Images/v14.jpg" class="responsive"></a>
+           <a href="Images/g43.png" data-lightbox="gallery"><img src="Images/g43.png" class="responsive"></a>
+   </div>
+  </nav>
+  </div>
+</div>                               <!--end of gallary-->
+  </div>
+
+<br><br>
+
+                                        <!--footer-->
+<footer>
+ <div class="footer-top">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-md-30">
+    <h3>Nzee</h3>
+    <p>Nzee Brand, the Sri lanka’s most iconic musical instruments brand,
+    has shaped the sounds of generations of musicians and music lovers across
+    genres for more than 10 years. Founded in 2010 and headquartered in Kandy,
+    Nzee has progressive product evolution
+    that is unrivaled among musical instrument companies.</p>
+  </div>
+<div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-md-30">
+ <h2>Products</h2>
+  <ul>
+   <li><a href="piano.html">Piano</a></li>
+   <li><a href="guitar.html">Guitar</a></li>
+   <li><a href="drums.html">Drums</a></li>
+   <li><a href="trumpet.html">Trumpet</a></li>
+   <li><a href="violin.html">Violin</a></li>
+   <li><a href="har.html">Harmonica</a></li>
+ </ul>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-md-30 md-mb-30">
+ <h2>Follow Us</h2>
+
+  <p>If you have any questions or suggestions about a particular product
+   or service, feel free to contact us on any of the below Social media.
+   Also follow us on <br>our Social Media Profile in order<br> to keep updated.</p>
+   <a href="#"><i class="fa fa-facebook"></i></a>
+   <a href="#"><i class="fa fa-instagram"></i></a>
+   <a href="#"><i class="fa fa-twitter"></i></a>
+   <a href="#"><i class="fa fa-youtube"></i></a>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-md-30 md-mb-30">
+ <h2>Services</h2>
+
+ <ul>
+  <li><a href="service.html">Repiar</a></li>
+  <li><a href="service.html">Rental</a></li>
+</ul>
+<br>
+ <p><b>Hotline: 076 1167 543</b></p>
+  <p><b>Address: Sri Wickrama Rajasinghe Mawatha,Kandy 20000</b></p>
+   </div>
+  </div>
+  </div>
+</div>
+<p class="footer-bottom-text">All Right reserved by &copy; Nzee 2019</p>
+</footer>
+                                      <!--end of footer-->
+
+
+  </body>
+</html>

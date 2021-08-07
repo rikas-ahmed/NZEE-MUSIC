@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nzee music</title>
+    <link rel="icon" href="Images/l5.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark"><!--navbar-->
+          <a class="navbar-brand" href="#"><img src="images/l5.jpg" width="40%" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+           data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+           aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="drums.html">Drums</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="guitar.html">Guitars</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="piano.html">Pianos</a>
+              <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="violin.html">Violin</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="trumpet.html">Trumpet</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="har.html">Harmonica</a>
+            </div>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallary.html">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#signup">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>                                     <!--end of navbar-->
+
+                                                 <!--login-->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-login" role="document">
+ <div class="modal-content">
+ <div class="modal-header">
+   <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+   <span aria-hidden="true">&times;</span>
+</button>
+ </div>
+ <div class="modal-body">
+   <form class="was-validated">
+ <div class="form-group">
+   <label>Username:</label>
+  <input type="text" class="form-control" placeholder="Enter username" name="" required>
+ <div class="invalid-feedback">Please fill out this field.</div>
+ </div>
+   <div class="form-group">
+    <label>Password:</label>
+    <input type="password" class="form-control"  placeholder="Enter password" name="" required>
+    <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+ <br>
+    <button name="button" class="btn btn-lg btn-block login-btn">Login</button>
+  </form>
+<br>
+
+    </div>
+   </div>
+  </div>
+ </div>                                        <!--end of login-->
+
+                                                   <!--sign up-->
+
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-login" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+  <form class="was-validated">
+  <div class="form-group">
+  <label>Email:</label>
+   <input type="email" class="form-control" placeholder="Enter email " name="" required>
+<div class="invalid-feedback">Please fill out this field.</div>
+</div>
+<div class="form-group">
+   <label>Password:</label>
+   <input type="password" class="form-control"  placeholder="Enter password" name="" required>
+   <div class="invalid-feedback">Please fill out this field.</div>
+</div>
+<div class="form-group">
+   <label>Confirm password:</label>
+   <input type="password" class="form-control"  placeholder="Confirm password" name="" required>
+   <div class="invalid-feedback">Please fill out this field.</div>
+</div>
+<br>
+  <button name="button" class="btn btn-lg btn-block login-btn">Sign up</button>
+</form>
+<br>
+   </div>
+  </div>
+ </div>
+</div>                                          <!--end of signup-->
+
+
+        <div class="carousel-inner">                     <!--image-->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/t22.jpg" alt="First slide">
+        </div>
+
+        <div class="carousel-caption  d-md-block">
+          <h2 style="color:black"><b>TRUMPET</b></h2>
+        </div>
+      </div>
+      </header>
+                                                 <!--end of image-->
+
+        <hr style="border:0px;height:5px;">
+
+                                                    <!--product -->
+          <div class="container">                            <!--1-->
+            <div class="row">
+              <div  class="photog col-lg-4">
+
+                <div class="img-container">
+                  <img id="imageBoxm" src="images/t11.jpg" style="width:100%">
+                </div>
+                <script type="text/javascript">
+                function mFunction(smallImg) {
+                 var fullImg = document.getElementById("imageBoxm");
+                 fullImg.src = smallImg.src;
+                }
+              </script>
+
+                <div class="product-small-img">
+                  <img src="images/t11.jpg" style="width:19%" onclick="mFunction(this)">
+                  <img src="images/t12.jpg" style="width:18%" onclick="mFunction(this)">
+                  <img src="images/t13.jpg" style="width:19%" onclick="mFunction(this)">
+                  <img src="images/t14.jpg" style="width:18%" onclick="mFunction(this)">
+                  <img src="images/t15.jpg" style="width:19%" onclick="mFunction(this)">
+                </div>
+
+              </div>
+              <div id="brand" class="col-lg-8">
+                <h2>TRFLI1820</h2>
+                <br>
+                       <p>
+                         Soundboard: Spruce<br>
+                        Soundboard Ribs: Spruce <br>
+                        Back Posts: 5 - Spruce <br>
+                        Frame: V-Pro Vacuum Shield Mold Process <br>
+                        Fallboard lock: Yes</p>
+                    <p>Available Brands :   <img src="images/l1.png" alt="">
+                      <img src="images/l5.jpg" alt=""></p></p>
+                  <br>
+                <p style="color:"><b>LKR 50,000.00</b></p>
+              </div>
+            </div>                                      <!--end of 1-->
+          </div>
+
+           <br>
+            <hr style="border:1px solid gray;width:100%;">
+          <br>
+
+          <div class="container">                          <!--2-->
+            <div class="row">
+              <div  class="photog col-lg-4">
+
+                <div class="img-container">
+                  <img id="imageBoxm2" src="images/t21.jpg" style="width:100%">
+                </div>
+                <script type="text/javascript">
+                function m2Function(smallImg) {
+                 var fullImg = document.getElementById("imageBoxm2");
+                 fullImg.src = smallImg.src;
+                }
+              </script>
+
+                <div class="product-small-img">
+                  <img src="images/t21.jpg" style="width:19%" onclick="m2Function(this)">
+                  <img src="images/t22.jpg" style="width:18%" onclick="m2Function(this)">
+                  <img src="images/t23.jpg" style="width:19%" onclick="m2Function(this)">
+                  <img src="images/t24.jpg" style="width:18%" onclick="m2Function(this)">
+                  <img src="images/t22.jpg" style="width:19%" onclick="m2Function(this)">
+                </div>
+
+              </div>
+              <div id="brand" class="col-lg-8">
+                <h2>TOOVI90</h2>
+                <br>
+                <p>
+                    Soundboard: Laminated Spruce <br>
+                    Bridge Construction: Two-piece separated <br>
+                    Wood seasoned for destination: Yes</p>
+
+                <p>Available Brands :   <img src="images/l5.jpg" alt="">
+                  <img src="images/l4.png" alt=""></p></p>
+
+                <p style="color:"><b>LKR 60,000.00</b></p>
+              </div>
+            </div>
+          </div>                                     <!--end of 2-->
+
+          <br>
+           <hr style="border:1px solid gray;width:100%;">
+         <br>
+
+         <div class="container">                          <!--3-->
+           <div class="row">
+             <div  class="photog col-lg-4">
+
+               <div class="img-container">
+                 <img id="imageBoxm3" src="images/t31.jpg" style="width:100%">
+               </div>
+               <script type="text/javascript">
+               function m3Function(smallImg) {
+                var fullImg = document.getElementById("imageBoxm3");
+                fullImg.src = smallImg.src;
+               }
+             </script>
+
+               <div class="product-small-img">
+                 <img src="images/t31.jpg" style="width:19%;" onclick="m3Function(this)">
+                 <img src="images/t32.jpg" style="width:18%" onclick="m3Function(this)">
+                 <img src="images/t33.jpg" style="width:19%" onclick="m3Function(this)">
+                 <img src="images/t34.jpg" style="width:18%" onclick="m3Function(this)">
+                 <img src="images/t35.jpg" style="width:19%" onclick="m3Function(this)">
+               </div>
+
+             </div>
+             <div id="brand" class="col-lg-8">
+               <h2>CLASSIC TRUM87</h2>
+               <br>
+                  <p>
+                   Fully integrated high-resolution record and playback system <br>
+                    Recording Formats: XP MIDI, Standard MIDI, Audio WAV, Audio Sync <br>
+                    Supported File Formats: XP and Standard MIDI, MP3, WAV <br>
+                    Streaming radio service with 30+ channels <br>
+                    Streaming video service (free with radio subscript</p>
+
+               <p>Available Brands :   <img src="images/l5.jpg" alt="">
+                 <img src="images/l1.png" alt=""></p></p>
+                 <br>
+               <p style="color:"><b>LKR 80,000.00</b></p>
+             </div>
+           </div>
+         </div>                                     <!--end of 3-->
+
+         <br>
+          <hr style="border:1px solid gray;width:100%;">
+        <br>
+
+        <div class="container">                          <!--4-->
+          <div class="row">
+            <div  class="photog col-lg-4">
+
+              <div class="img-container">
+                <img id="imageBoxm4" src="images/t41.jpg" style="width:100%">
+              </div>
+              <script type="text/javascript">
+              function m4Function(smallImg) {
+               var fullImg = document.getElementById("imageBoxm4");
+               fullImg.src = smallImg.src;
+              }
+            </script>
+
+              <div class="product-small-img">
+                <img src="images/t41.jpg" style="width:19%" onclick="m4Function(this)">
+                <img src="images/t42.jpg" style="width:18%" onclick="m4Function(this)">
+                <img src="images/t43.jpg" style="width:19%" onclick="m4Function(this)">
+                <img src="images/t44.jpg" style="width:18%" onclick="m4Function(this)">
+                <img src="images/t45.jpg" style="width:19%" onclick="m4Function(this)">
+              </div>
+
+            </div>
+            <div id="brand" class="col-lg-8">
+              <h2>CLASSIC T567</h2>
+              <br>
+              <p>Soundboard: Spruce <br>
+                 Bridge Construction: Two-piece separated <br>
+                 Wood seasoned for destination: Yes <br>
+                 Frame: V-Pro Vacuum Shield Mold Process <br>
+                 Black Key surfaces: Phenolic Resin</p>
+
+            <p>Available Brands :   <img src="images/l5.jpg" alt="">
+              <img src="images/l4.png" alt=""></p></p>
+
+            <p style="color:"><b>LKR 70,000.00</b></p>
+            </div>
+          </div>
+        </div>                                     <!--end of 4-->
+                                               <!--end of product-->
+         <br><br>
+
+                                                  <!--footer-->
+<footer>
+ <div class="footer-top">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-md-30">
+      <h3>Nzee</h3>
+      <p>Nzee Brand, the Sri lanka’s most iconic musical instruments brand,
+      has shaped the sounds of generations of musicians and music lovers across
+      genres for more than 10 years. Founded in 2010 and headquartered in Kandy,
+      Nzee has progressive product evolution
+      that is unrivaled among musical instrument companies.</p>
+ </div>
+ <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-md-30">
+ <h2>Products</h2>
+  <ul>
+   <li><a href="piano.html">Piano</a></li>
+   <li><a href="guitar.html">Guitar</a></li>
+   <li><a href="drums.html">Drums</a></li>
+   <li><a href="trumpet.html">Trumpet</a></li>
+   <li><a href="violin.html">Violin</a></li>
+   <li><a href="har.html">Harmonica</a></li>
+  </ul>
+ </div>
+ <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-md-30 md-mb-30">
+  <h2>Follow Us</h2>
+
+   <p>If you have any questions or suggestions about a particular product
+   or service, feel free to contact us on any of the below Social media.
+   Also follow us on <br>our Social Media Profile in order<br> to keep updated.</p>
+   <a href="#"><i class="fa fa-facebook"></i></a>
+   <a href="#"><i class="fa fa-instagram"></i></a>
+   <a href="#"><i class="fa fa-twitter"></i></a>
+   <a href="#"><i class="fa fa-youtube"></i></a>
+ </div>
+ <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-md-30 md-mb-30">
+  <h2>Services</h2>
+
+  <ul>
+    <li><a href="service.html">Repiar</a></li>
+    <li><a href="service.html">Rental</a></li>
+ </ul>
+<br>
+  <p><b>Hotline: 076 1167 543</b></p>
+  <p><b>Address: Sri Wickrama Rajasinghe Mawatha,Kandy 20000</b></p>
+ </div>
+  </div>
+ </div>
+</div>
+<p class="footer-bottom-text">All Right reserved by &copy; Nzee 2019</p>
+</footer>
+                                                  <!--end of footer-->
+
+    </body>
+  </html>
